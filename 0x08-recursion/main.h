@@ -13,5 +13,6 @@ int evaluate_num(int num, int iterator);
 int is_palindrome(char *s);
 int _strlen_recursion(char *s)
 int p1(char *s, int l);
+int wildcmp(char *s1, char *s2);
 
 #endif /* MAIN_H */
