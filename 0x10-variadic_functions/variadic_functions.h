@@ -13,7 +13,7 @@
 /**
  * struct print - A new struct type defining the print.
  * @symbol: A symbol representing a data type.
- * @print-func: A function pointer to a function that prints
+ * @print_func: A function pointer to a function that prints
  *         a data type corresponding to symbol.
  */
 typedef struct print
