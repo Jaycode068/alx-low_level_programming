@@ -11,15 +11,15 @@
 #include <stdarg.h>
 
 /**
- * struct printer - A new struct type defining a printer.
+ * struct print - A new struct type defining the print.
  * @symbol: A symbol representing a data type.
- * @print: A function pointer to a function that prints
+ * @print-func: A function pointer to a function that prints
  *         a data type corresponding to symbol.
  */
-typedef struct printer
+typedef struct print
 {
 	char *symbol;
-	void (*print)(va_list arg);
+	void (*print_func)(va_list arg);
 
 } func_printer;
 
